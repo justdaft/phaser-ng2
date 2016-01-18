@@ -1,0 +1,36 @@
+{
+  "version": "1.6.2",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "sourceMap": false,
+    "noImplicitAny": true
+  },
+  "filesGlob": [
+    "src/**/*.ts",
+    "typings/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "src/app/bootstrap.ts",
+    "src/app/greeting/greeting.ts",
+    "typings/p2.d.ts",
+    "typings/phaser.comments.d.ts",
+    "typings/phaser.d.ts",
+    "typings/pixi.comments.d.ts",
+    "typings/pixi.d.ts",
+    "typings/tsd.d.ts",
+    "typings/vendor.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
